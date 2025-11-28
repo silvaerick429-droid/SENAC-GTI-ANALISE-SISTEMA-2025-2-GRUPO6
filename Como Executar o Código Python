@@ -1,0 +1,30 @@
+Passo a Passo — Como Executar o Código Flask
+
+1) Baixar o arquivo do projeto
+• Certifique-se de que o arquivo app_recicla_visual.py está em uma pasta acessível.
+2) Abrir o PowerShell na pasta do projeto
+• Clique com o botão direito na pasta.
+• Selecione: Abrir no Terminal / Abrir no PowerShell.
+3) Criar um ambiente virtual (venv)
+Digite:
+python -m venv venv
+4) Ativar o ambiente virtual
+Digite:
+.\venv\Scripts\Activate.ps1
+Após isso, o terminal exibirá (venv) no início — isso significa que está ativo.
+5) Instalar o Flask dentro do ambiente virtual
+Digite:
+pip install flask
+6) Executar o programa
+Digite:
+python app_recicla_visual.py
+7) Abrir no navegador
+Acesse:
+http://127.0.0.1:5000
+ou
+http://localhost:5000
+A aplicação estará funcionando.
+8) Encerrar a aplicação
+• Vá ao terminal onde o servidor está rodando.
+• Pressione CTRL + C.
+Esses são todos os passos necessários para executar o projeto.
