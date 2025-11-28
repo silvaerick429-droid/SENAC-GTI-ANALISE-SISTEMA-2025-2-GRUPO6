@@ -1,4 +1,4 @@
-Guia Passo a Passo: Subindo Aplicação Flask com Docker
+Guia Passo a Passo: Subindo Aplicação Flask com Docker/ https://hub.docker.com/r/lucasricardo244/recicla_junto
 
 Passo 1: Preparar o Dockerfile
 Crie um arquivo chamado Dockerfile na pasta do projeto:
@@ -59,3 +59,4 @@ Abra no navegador do outro computador:
 http://<SEU_IP>:5000
 
 Certifique-se de liberar a porta 5000 no firewall do Windows.
+
